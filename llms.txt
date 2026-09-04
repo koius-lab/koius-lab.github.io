@@ -82,4 +82,5 @@ https://www.iiit.ac.in/faculty/saikiran-bulusu/
 
 ## Contact
 
-For research inquiries, contact the lab maintainer through the KOIUS Lab website.
+Nilanjan Sarkar
+Email: nilanjan.sarkar@research.iiit.ac.in
