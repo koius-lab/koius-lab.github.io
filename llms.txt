@@ -1,0 +1,85 @@
+# KOIUS Lab
+
+Knowledge-Oriented Intelligence Systems Lab
+
+## Overview
+
+KOIUS Lab is a graduate research initiative focused on efficient and reliable artificial intelligence systems. The research explores foundation model pretraining, data-efficient learning, adaptive data selection, and memory systems for long-horizon AI agents.
+
+## Research Themes
+
+### Efficient Foundation Model Pretraining
+
+The lab studies how training data can be selected, organized, and weighted to improve learning efficiency under fixed computational budgets.
+
+Research questions include:
+
+- Can inexpensive signals identify informative training examples?
+- Can curriculum structures improve pretraining efficiency?
+- How can concepts and retrieval mechanisms guide training data selection?
+
+### Data Selection and Curriculum Learning
+
+Research directions include:
+
+- CPU-efficient data selection strategies
+- Retrieval-based example selection
+- Concept-aware curriculum learning
+- Long-tail concept coverage
+- Curriculum-based masking strategies
+
+## Research Timeline
+
+### Early Data Selection Studies
+
+The initial direction explored whether CPU-based signals could identify useful training examples without requiring expensive model-dependent scoring.
+
+The motivation was to investigate scalable data selection methods that could operate under realistic compute constraints.
+
+### Concept-Aware Pretraining
+
+Later work investigated whether structured concepts could guide pretraining example selection.
+
+Methods explored include:
+
+- Concept indexing
+- Inverted indices
+- BM25 retrieval
+- Concept-conditioned sampling
+- Curriculum masking
+
+The hypothesis was that selecting examples based on learning-relevant concepts may improve training efficiency compared with uniform sampling.
+
+### Memory Systems for AI Agents
+
+Current research investigates how AI agents can maintain and use information over long interactions.
+
+Topics include:
+
+- Long-term memory architectures
+- Retrieval and consolidation mechanisms
+- Structured memory representations
+- Evaluation of agent memory systems
+
+## People
+
+Nilanjan Sarkar
+Graduate Research Student
+International Institute of Information Technology Hyderabad
+
+Raman Rayaprolu
+Lab Member
+
+## Faculty Guidance
+
+Research conducted under the guidance of faculty members at IIIT Hyderabad:
+
+Prof. Anil Kumar Nelakanti
+https://www.iiit.ac.in/faculty/anil-nelakanti/
+
+Prof. Sai Kiran Bulusu
+https://www.iiit.ac.in/faculty/saikiran-bulusu/
+
+## Contact
+
+For research inquiries, contact the lab maintainer through the KOIUS Lab website.
