@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="An evidence-based index of Claude Science research uses, public reports, paper status, limits, and practical methods.">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Claude Science: Research and Practice Index | KOIUS</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+:root{color-scheme:light}
+body{max-width:960px;margin:28px auto;padding:0 20px;font:16px/1.62 Arial,Helvetica,sans-serif;color:#202020;background:#fff}
+h1{font-size:2rem;line-height:1.22;margin:.5rem 0}
+h2{font-size:1.35rem;margin:2.2rem 0 .5rem;padding-bottom:4px;border-bottom:1px solid #bbb}
+h3{font-size:1.08rem;margin:1.45rem 0 .3rem}
+p,li{max-width:88ch}
+a{color:#0645ad;text-decoration:underline}
+a:focus-visible{outline:2px solid #0645ad;outline-offset:2px}
+nav a{margin-right:1.05rem;display:inline-block}
+nav{padding:10px 0;border-top:1px solid #ddd;border-bottom:1px solid #ddd}
+small,.muted{color:#555}
+strong{font-weight:700}
+ul,ol{padding-left:1.4rem}
+li{margin:.36rem 0}
+table{width:100%;border-collapse:collapse;font-size:.94rem}
+th,td{text-align:left;border-bottom:1px solid #ddd;padding:.6rem .65rem;vertical-align:top}
+th{border-bottom:2px solid #777}
+.table-wrap{overflow-x:auto}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;border:1px solid #d4d4d4;padding:12px;font-size:.94rem;line-height:1.5;background:#fafafa}
+code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.93em}
+.note{border-left:3px solid #777;padding-left:12px}
+.meta{margin:.2rem 0 1.2rem}
+footer{border-top:1px solid #bbb;margin:2.6rem 0 1.5rem;padding-top:1rem}
+@media(max-width:600px){body{font-size:15px;margin:18px auto;padding:0 14px}h1{font-size:1.65rem}th,td{min-width:145px;padding:.45rem}nav a{margin:.2rem .6rem .2rem 0}}
+@media print{body{max-width:none}nav{display:none}a{color:#111}}
+</style>
+</head>
+<body>
+<main id="top">
+<p><a href="../index.html">KOIUS home</a> / Research notes</p>
+<h1>Claude Science: Research and Practice Index</h1>
+<p class="meta"><strong>Reviewed:</strong> 29 October 2026. <strong>Format:</strong> short, direct English guided by ASD-STE100 principles. This page is an independent evidence index, not an endorsement.</p>
+
+<p><strong>Main finding:</strong> Claude Science has documented research uses and one public technical report with laboratory tests. I did not verify an accepted, peer-reviewed conference or journal paper that explicitly credits the Claude Science application in the sources checked. A technical report, workshop, or hackathon win is not a peer-reviewed paper acceptance.</p>
+<p><strong>Scope:</strong> This page covers the <em>Claude Science application</em>. It separates work done with the Claude model, Claude Code, and other products.</p>
+<nav aria-label="Page index">
+<a href="#status">Paper status</a>
+<a href="#uses">Real uses</a>
+<a href="#patterns">Methods that work</a>
+<a href="#tips">Tips and limits</a>
+<a href="#prompts">Starter prompts</a>
+<a href="#sources">Sources</a>
+</nav>
+
+<section id="status">
+<h2>1. Paper acceptance: what is verified?</h2>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Result</th><th>What the evidence shows</th><th>Publication status</th></tr></thead>
+<tbody>
+<tr><td><strong>Scorpion toxin protein binders</strong><br>20 Oct 2026</td>
+<td>An internal research model ran inside Claude Science for about 64 hours, with four human follow-ups. It generated 318,484 designs. Two external laboratories tested 211 selected designs. Seventeen met the team's binder criteria. <a href="https://www.anthropic.com/research/claude-scorpion-toxin-binder-design">Research report</a> · <a href="https://huggingface.co/datasets/Anthropic/scorpion-toxin-binder-design">Released data</a>.</td>
+<td><strong>Public technical report; laboratory data.</strong> I found no confirmed peer-reviewed venue acceptance for this report as of the review date. Binding does not establish venom neutralization or a treatment.</td></tr>
+<tr><td><strong>Allen Institute literature reviews</strong></td>
+<td>Jérôme Lecoq reports a multi-agent review pipeline with about 20 reusable skills. It extracts claims from thousands of papers and uses a separate critic. Anthropic says the team has about 10 long reviews. <a href="https://www.anthropic.com/news/claude-science-ai-workbench">Case description</a>.</td>
+<td><strong>Research workflow.</strong> The case description does not identify an accepted publication produced by this pipeline.</td></tr>
+<tr><td><strong>scverse 2026 workshop</strong><br>12–14 Oct 2026</td>
+<td>A listed hands-on workshop shows end-to-end single-cell analysis with Claude Science and scverse tools. <a href="https://scverse.org/conference2026/workshops/">Official workshop listing</a>.</td>
+<td><strong>Conference workshop.</strong> Being taught at a conference is not a paper acceptance.</td></tr>
+<tr><td><strong>Claude Science hackathon</strong><br>2026</td>
+<td>Anthropic identifies Faith Ogundimu (RCSI) as a hackathon winner using agents for cancer epigenomics workflows. <a href="https://claude.com/resources/webinars/claude-science-ama-how-to-accelerate-scientific-discovery">Webinar listing</a>.</td>
+<td><strong>Hackathon result.</strong> No paper acceptance is established by this listing.</td></tr>
+<tr><td><strong>Claude-only work</strong></td>
+<td>Anthropic also reports an agent-led enzyme discovery with a preprint. That report concerns Claude agents. It does not prove that the published Claude Science application was used. <a href="https://www.anthropic.com/research/claude-discovers-novel-enzyme-system">Separate research report</a>.</td>
+<td><strong>Different system and separate evidence.</strong> Do not count it as a Claude Science paper acceptance.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="note"><strong>Test for an accepted paper:</strong> Record the title, authors, venue, year, official acceptance page or published DOI, and a method statement that names Claude Science. If one item is absent, mark acceptance as <strong>unverified</strong>. No verified acceptance was found in this survey; this is not proof that none exists.</p>
+</section>
+
+<section id="uses">
+<h2>2. How researchers use Claude Science</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>User or group</th><th>Task and reported result</th><th>Evidence strength</th><th>Lesson</th></tr></thead>
+<tbody>
+<tr><td><strong>Manifold Bio</strong></td><td>Ranked tissue-specific drug targets using public evidence and internal selection rules.</td><td>Named company case in <a href="https://www.anthropic.com/news/claude-science-ai-workbench">Anthropic's launch report</a>.</td><td>Give the agent clear criteria and trusted internal reference data.</td></tr>
+<tr><td><strong>Jérôme Lecoq, Allen Institute</strong></td><td>Made a long-review pipeline: claim extraction, evidence database, section agents, quantitative figures, and a critic.</td><td>Named researcher case; also <a href="https://www.the-scientist.com/early-verdicts-on-claude-science-faster-workflows-but-gaps-remain-74745">independent interview</a>.</td><td>Store evidence first. Draft the story only after evidence checks.</td></tr>
+<tr><td><strong>Stephen Francis, UCSF</strong></td><td>Used research database search and coding to explore glioma genetics. His group reported about 10-fold faster analyses and internal checks of results.</td><td>Named researcher case and <a href="https://www.the-scientist.com/early-verdicts-on-claude-science-faster-workflows-but-gaps-remain-74745">independent interview</a>. No public controlled benchmark shown here.</td><td>Let the agent propose several next tests, then judge each one.</td></tr>
+<tr><td><strong>Anthropic with laboratory partners</strong></td><td>Ran the scorpion-toxin binder campaign. External labs tested the selected designs. The full design table is public.</td><td><a href="https://www.anthropic.com/research/claude-scorpion-toxin-binder-design">Technical report</a> and <a href="https://huggingface.co/datasets/Anthropic/scorpion-toxin-binder-design">data release</a>.</td><td>Separate generated candidates, selected candidates, and measured results.</td></tr>
+<tr><td><strong>scverse training team</strong></td><td>Listed a hands-on demonstration of single-cell data analysis.</td><td><a href="https://scverse.org/conference2026/workshops/">Conference program</a>; this confirms a scheduled workshop, not its outcome.</td><td>Start with one public dataset and inspect every analysis step.</td></tr>
+<tr><td><strong>Biotech Reddit user</strong></td><td>Reported getting useful preliminary research in about 30 minutes, with branching and sub-agents.</td><td><a href="https://www.reddit.com/r/ClaudeAI/comments/1ukw29u/claude_science_positively_impressed/">Unverified first-person account</a>.</td><td>Good idea for a trial; not a validated speed comparison.</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="patterns">
+<h2>3. Methods you can reuse</h2>
+<h3>A. Evidence-first literature review</h3>
+<ol>
+<li>Write one precise research question and list the sources the agent can use.</li>
+<li>For each paper, save its DOI or stable URL, claim, method, dataset, and numerical result.</li>
+<li>Record source access. Mark a paywalled or missing paper as <em>not read</em>.</li>
+<li>Use one agent to write a summary and a separate agent to check every claim.</li>
+<li>Make the figures from the evidence table. Check them against the raw data.</li>
+</ol>
+<p>Based on the Allen Institute workflow. The Scientist reports that errors and inaccessible paywalled papers remain real problems. <a href="https://www.the-scientist.com/early-verdicts-on-claude-science-faster-workflows-but-gaps-remain-74745">Read the interviews</a>.</p>
+
+<h3>B. Candidate generation and external tests</h3>
+<ol>
+<li>Write the success criteria before the agent starts.</li>
+<li>Save every candidate ID and the reason for its selection.</li>
+<li>Separate predicted scores from measured results.</li>
+<li>Have an independent test, reviewer, or baseline check the short list.</li>
+<li>Publish the failed cases and limits, not only the best examples.</li>
+</ol>
+<p>The 2026 protein-design work is a strong example of this pattern. It also shows that many candidate designs and large compute budgets may be needed.</p>
+
+<h3>C. Reproducible compute</h3>
+<ol>
+<li>Start with a small test run and a fixed input set.</li>
+<li>Record code version, environment, random seed, parameters, and output paths.</li>
+<li>Use a job scheduler for cluster work. Do not run heavy workloads on login nodes.</li>
+<li>Review job scripts and resource limits before you approve execution.</li>
+<li>Replay the saved code. Compare its outputs with the agent's written claim.</li>
+</ol>
+<p>Lawrence Berkeley National Laboratory documents how Claude Science submits Slurm jobs through SSH, keeps jobs running after laptop disconnects, and copies back the outputs. Its guide warns that remote jobs run with the user's cluster permissions. <a href="https://scienceit-docs.lbl.gov/hpc/ai-tools/claude-science/">Read the HPC guide</a>.</p>
+</section>
+
+<section id="tips">
+<h2>4. Practical tips and known limits</h2>
+<ol>
+<li><strong>Use a bounded task.</strong> Ask for one decision, figure, reproduction, or test. State the success rule.</li>
+<li><strong>Give the agent a verified tool.</strong> Reuse your lab's scripts and data readers as skills where possible.</li>
+<li><strong>Keep an evidence table.</strong> Save original values and links before you ask for prose.</li>
+<li><strong>Use independent review.</strong> A second agent can find issues. Human review or independent tests are still necessary.</li>
+<li><strong>Fork for fair comparisons.</strong> Keep baseline and improved methods on the same data, seed, and compute budget.</li>
+<li><strong>Make failed runs visible.</strong> Keep error logs, negative outcomes, and changes to the plan.</li>
+<li><strong>Use persistent Python or R sessions for iteration.</strong> Avoid loading large data again when the session can reuse it. Save a clean runnable version too.</li>
+<li><strong>Give SSH hosts written limits.</strong> State scratch directory, job scheduler, partitions, GPU quotas, and files that must not be changed. Never place passwords or keys in prompts or public pages.</li>
+<li><strong>Review approvals.</strong> Do not give remote jobs unrestricted access only to remove approval prompts. Remote jobs use your account permissions.</li>
+<li><strong>Track usage.</strong> Claude Science consumes usage from the linked Claude plan and can be token-intensive. See <a href="https://claude.com/resources/guides/claude-science-product-guide/frequently-asked-questions-for-cios-and-it-leaders">Anthropic's usage guidance</a>.</li>
+</ol>
+<p><strong>Limitations reported by researchers:</strong> mistaken citations or summaries, no direct access to some paywalled papers, incomplete judgment of study quality, and occasional blocked legitimate biology queries. A reviewer agent is useful, but it is not proof that a result is correct. <a href="https://www.the-scientist.com/early-verdicts-on-claude-science-faster-workflows-but-gaps-remain-74745">Independent account</a>.</p>
+<p><strong>Data caution:</strong> Work can run on a local system, but material read as model context is sent to the model service under the applicable data policy. Do not assume that a local workflow means no data leaves your machine. <a href="https://claude.com/resources/guides/claude-science-product-guide/frequently-asked-questions-for-cios-and-it-leaders">Product policy details</a>.</p>
+</section>
+
+<section id="prompts">
+<h2>5. Three starter prompts for research</h2>
+<h3>Prompt 1. Reproduce before you improve</h3>
+<pre>Goal: Reproduce one public result from the paper [title and URL].
+First read the method and report missing information.
+Use the original data split and baseline if available.
+Do not claim a result without logs and measured values.
+Save code, package versions, seed, run command, and output table.
+Stop after a small test and show the evidence before a full run.</pre>
+
+<h3>Prompt 2. Find a real research gap</h3>
+<pre>Question: [one precise research question].
+Find primary papers and record each paper's DOI or stable URL.
+For each paper, extract: method, dataset, metric, main claim,
+key numerical result, and stated limitation.
+Mark inaccessible papers as not read.
+Group real disagreements and missing tests.
+Propose three falsifiable experiments with fixed baselines.
+Then ask an independent reviewer to challenge the conclusions.</pre>
+
+<h3>Prompt 3. Run a fair ML experiment</h3>
+<pre>Compare method A with baseline B on the same data.
+Freeze the split, seed, model size, and evaluation code.
+Give both the same resource budget.
+Define the primary metric before the run.
+Run a small dry test first. Show expected costs and job script.
+Record time, resource use, failed trials, and all metrics.
+Return a table with links to logs, code, and saved artifacts.
+Do not change the success metric after seeing the results.</pre>
+
+<h3>Quick pilot: how to measure value</h3>
+<p>Choose three public tasks: a literature evidence table, a published result reproduction, and one small ablation. For each task, record human time, agent usage, errors found by review, successful reruns, and final scientific quality. Use the same acceptance criteria for the agent and the manual baseline. Keep unsuccessful tasks in the comparison.</p>
+</section>
+
+<section id="sources">
+<h2>6. Source index</h2>
+<p><strong>Primary product and research sources</strong></p>
+<ul>
+<li><a href="https://www.anthropic.com/news/claude-science-ai-workbench">Anthropic: Claude Science launch and named early adopters</a> — 30 Jun 2026.</li>
+<li><a href="https://www.anthropic.com/research/claude-scorpion-toxin-binder-design">Anthropic: Scorpion-toxin protein binder research</a> — 20 Oct 2026.</li>
+<li><a href="https://www-cdn.anthropic.com/31ac578806cffd8b3d92d8affe6edc4c04d502e1.pdf">Technical report PDF: De novo design of protein binders against scorpion toxins with Claude</a> — 20 Oct 2026.</li>
+<li><a href="https://huggingface.co/datasets/Anthropic/scorpion-toxin-binder-design">Public data for 211 tested protein designs</a>.</li>
+<li><a href="https://claude.com/product/claude-science">Claude Science product overview</a> and <a href="https://support.claude.com/en/articles/16563838-get-started-with-claude-science">current getting-started help</a>.</li>
+<li><a href="https://claude.com/resources/guides/claude-science-product-guide/frequently-asked-questions-for-cios-and-it-leaders">Claude Science: compute, data handling, usage, and approvals</a>.</li>
+</ul>
+<p><strong>Independent or community sources</strong></p>
+<ul>
+<li><a href="https://www.the-scientist.com/early-verdicts-on-claude-science-faster-workflows-but-gaps-remain-74745">The Scientist: interviews on strengths and failures</a>.</li>
+<li><a href="https://scienceit-docs.lbl.gov/hpc/ai-tools/claude-science/">Berkeley Lab ScienceIT: Claude Science with Slurm/HPC</a>.</li>
+<li><a href="https://scverse.org/conference2026/workshops/">scverse conference 2026 workshop list</a>.</li>
+<li><a href="https://claude.com/resources/webinars/claude-science-ama-how-to-accelerate-scientific-discovery">Anthropic webinar with a Claude Science hackathon winner</a>.</li>
+<li><a href="https://www.reddit.com/r/ClaudeAI/comments/1ukw29u/claude_science_positively_impressed/">Reddit: an informal first-person use report</a>.</li>
+<li><a href="https://www.asd-ste100.org/about_STE.html">ASD-STE100 Issue 9: Simplified Technical English</a> — style guide reference, not a claim of formal compliance.</li>
+</ul>
+<p><strong>Evidence rule:</strong> Vendor examples show reported use. Interviews add outside reporting. Public data and independent replays support stronger claims. A journal or conference acceptance needs a venue record.</p>
+</section>
+
+<footer>
+<p><a href="#top">Back to top</a> · <a href="../index.html">KOIUS home</a></p>
+<p><small>Last evidence review: 29 October 2026. This is a static research index; it does not check sources automatically. Page metadata requests no search indexing, but this public page is not access-controlled.</small></p>
+</footer>
+</main>
+</body>
+</html>
