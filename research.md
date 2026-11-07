@@ -2,7 +2,7 @@
 
 ## Efficient Foundation Model Pretraining
 
-KOIUS Lab studies methods for improving foundation model training efficiency through better organization and selection of training data.
+Coeus Labs studies methods for improving foundation model training efficiency through better organization and selection of training data.
 
 The research investigates whether informative signals, concepts, and retrieval mechanisms can guide pretraining beyond uniform data sampling.
 
