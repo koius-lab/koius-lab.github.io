@@ -1,10 +1,10 @@
-# KOIUS Research Initiative
+# Coeus Labs
 
-Knowledge-Oriented Intelligence Systems
+Independent Machine Learning Research Collective
 
 ## Overview
 
-KOIUS Research Initiative explores efficient and reliable artificial intelligence systems.
+Coeus Labs explores efficient and reliable artificial intelligence systems.
 The research focuses on foundation model pretraining, data-efficient learning, adaptive data selection, and memory systems for long-horizon AI agents.
 
 ## Research Themes
