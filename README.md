@@ -1,12 +1,15 @@
-# Coeus Labs
+# KOIUS Lab
 
-Independent machine learning research collective.
+Knowledge-Oriented Intelligence Systems Lab.
 
-Research interests include reliable AI evaluation, efficient foundation-model learning, retrieval, agent memory, and multimodal intelligence.
+A graduate research initiative exploring efficient foundation model pretraining, adaptive data selection, and memory systems for AI agents.
 
-Website: https://nilansa.github.io/coeus-labs/
+Website: https://koius-lab.github.io
 
-This repository is the historic GitHub Pages location. The public-facing name is **Coeus Labs**; the GitHub organization and repository URL still have the former KOIUS spelling pending an organization and Pages rename.
+Contact:
 
-Research lead: Nilanjan Sarkar
-Contact: nilanjan.sarkar@research.iiit.ac.in
+Nilanjan Sarkar
+Graduate Research Student
+International Institute of Information Technology Hyderabad
+
+Email: nilanjan.sarkar@research.iiit.ac.in
